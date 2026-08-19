@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arte Infinito | Publicidad, diseño, impresión y rotulación creativa</title>
+  <meta name="description" content="Arte Infinito ayuda a marcas a cobrar vida con soluciones creativas en impresión, diseño, rotulación y artículos promocionales personalizados.">
+  <meta name="keywords" content="Arte Infinito, publicidad creativa, diseño gráfico, impresión, rotulación, artículos promocionales, identidad de marca">
+  <meta name="author" content="Arte Infinito">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Arte Infinito | Publicidad sin límites para marcas memorables">
+  <meta property="og:description" content="Impresión, diseño, rotulación y promocionales personalizados para que tu marca destaque con una identidad moderna y colorida.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:image" content="assets/img/arte-infinito-hero.jpg">
+
+  <link rel="icon" type="image/png" href="assets/img/logo-gold.png">
+  <link rel="apple-touch-icon" href="assets/img/logo-gold.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="loading-screen" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-ring"></div>
+      <img src="assets/img/logo-gold.png" alt="" class="loader-logo">
+    </div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Arte Infinito - Inicio">
+        <img src="assets/img/logo-gold.png" alt="Logotipo de Arte Infinito" class="brand-logo">
+        <span class="brand-text">
+          <span class="brand-name">Arte Infinito</span>
+          <span class="brand-tagline">Publicidad &amp; Diseño Creativo</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#galeria" class="nav-link">Portafolio</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <a href="#contacto" class="btn btn-primary btn-nav">Cotiza tu proyecto</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <canvas id="particles-canvas" aria-hidden="true"></canvas>
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <p class="eyebrow reveal" data-reveal>Publicidad creativa para marcas que quieren destacar</p>
+
+        <h1 class="hero-title reveal" data-reveal>
+          <span class="gradient-text">Haz que tu marca</span><br>
+          <span class="gradient-text">sea inolvidable.</span>
+        </h1>
+
+        <p class="hero-typewriter reveal" data-reveal>
+          Soluciones en <span class="typewriter-word" id="typewriter"></span><span class="typewriter-cursor">|</span>
+        </p>
+
+        <p class="hero-desc reveal" data-reveal>
+          En Arte Infinito transformamos ideas en piezas visuales de alto impacto: impresión, diseño, rotulación y artículos promocionales creados para elevar tu identidad de marca.
+        </p>
+
+        <div class="hero-cta reveal" data-reveal>
+          <a href="#contacto" class="btn btn-primary btn-lg">
+            <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H8l-4 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm2 5v2h12V9H6Zm0 4v2h8v-2H6Z"/></svg>
+            Solicitar cotización
+          </a>
+          <a href="#servicios" class="btn btn-outline btn-lg">Ver servicios</a>
+        </div>
+
+        <div class="hero-social reveal" data-reveal>
+          <span class="hero-social-label">Explora</span>
+          <div class="social-links">
+            <a href="#servicios" aria-label="Ver servicios de Arte Infinito">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h7v7H4V4Zm9 0h7v7h-7V4ZM4 13h7v7H4v-7Zm9 0h7v7h-7v-7Z"/></svg>
+            </a>
+            <a href="#galeria" aria-label="Ver portafolio de Arte Infinito">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5Zm3 11h12l-3.5-4.5-2.7 3.4-1.9-2.4L6 16Zm2-7.5A1.5 1.5 0 1 0 8 5.5a1.5 1.5 0 0 0 0 3Z"/></svg>
+            </a>
+            <a href="#contacto" aria-label="Ir a contacto de Arte Infinito">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2 3 6v6c0 5 3.8 9.7 9 10 5.2-.3 9-5 9-10V6l-9-4Zm-1 14-4-4 1.4-1.4L11 13.2l5.6-5.6L18 9l-7 7Z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#nosotros" class="scroll-indicator" aria-label="Desplázate hacia abajo">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="about" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-media reveal" data-reveal>
+          <div class="about-media-frame">
+            <img src="assets/img/arte-infinito-scene.jpg" alt="Impresión gran formato y artículos promocionales de Arte Infinito" loading="lazy">
+          </div>
+          <div class="about-media-badge">
+            <span class="badge-number">4</span>
+            <span class="badge-label">Soluciones<br>para tu marca</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <p class="eyebrow reveal" data-reveal>Sobre Arte Infinito</p>
+          <h2 class="section-title reveal" data-reveal>Ideas creativas que cobran vida <span class="text-gold">con calidad y personalización.</span></h2>
+          <p class="section-desc reveal" data-reveal>
+            Arte Infinito es una empresa dedicada a brindar soluciones creativas en publicidad y diseño. Acompañamos a marcas que buscan realzar su identidad con piezas visuales modernas, coloridas y pensadas para generar resultados impactantes.
+          </p>
+
+          <div class="about-pillars">
+            <div class="pillar reveal" data-reveal>
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 3h12a2 2 0 0 1 2 2v11h-4v5H8v-5H4V5a2 2 0 0 1 2-2Zm3 2v5h6V5H9Zm1 12v2h4v-2h-4Z"/></svg>
+              </div>
+              <div>
+                <h3>Impresión</h3>
+                <p>Piezas impresas diseñadas para comunicar con nitidez, color y una presencia visual que se siente profesional desde el primer contacto.</p>
+              </div>
+            </div>
+            <div class="pillar reveal" data-reveal>
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2 3 7l9 5 9-5-9-5Zm-7 8v7l7 4 7-4v-7l-7 4-7-4Z"/></svg>
+              </div>
+              <div>
+                <h3>Diseño</h3>
+                <p>Conceptos visuales con intención: composición, color y mensaje alineados para que cada marca tenga una voz reconocible.</p>
+              </div>
+            </div>
+            <div class="pillar reveal" data-reveal>
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h16v4H4V4Zm2 6h12l-1.5 10h-9L6 10Zm3 2 .7 6h4.6l.7-6H9Z"/></svg>
+              </div>
+              <div>
+                <h3>Promocionales</h3>
+                <p>Artículos personalizados que mantienen tu marca en movimiento y la convierten en una experiencia tangible para tus clientes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="servicios">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal" data-reveal>Nuestros servicios</p>
+          <h2 class="section-title reveal" data-reveal>Todo lo que tu marca necesita para <span class="text-gold">verse, sentirse y recordarse mejor.</span></h2>
+          <p class="section-desc reveal" data-reveal>Soluciones integrales para emprendedores, negocios y marcas que buscan una identidad visual consistente, profesional y memorable.</p>
+        </div>
+
+        <div class="service-category reveal" data-reveal>
+          <div class="service-cat-media">
+            <img src="assets/img/arte-infinito-scene.jpg" alt="Impresora de gran formato produciendo gráficos de alto color" loading="lazy">
+          </div>
+          <div class="service-cat-content">
+            <span class="service-cat-tag reveal" data-reveal>01 - Impresión</span>
+            <h3>Producción visual de alto impacto</h3>
+            <p class="service-cat-desc">Materiales impresos que hacen que tu marca se vea sólida, vibrante y lista para competir.</p>
+            <ul class="service-list">
+              <li>Impresión para campañas publicitarias y materiales comerciales.</li>
+              <li>Piezas visuales para punto de venta, eventos y comunicación de marca.</li>
+              <li>Acabados pensados para destacar color, legibilidad y presencia.</li>
+              <li>Producción personalizada según los objetivos de cada proyecto.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-category service-category--reverse reveal" data-reveal>
+          <div class="service-cat-media">
+            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1200&q=80" alt="Mesa de trabajo con diseño gráfico, branding y recursos creativos" loading="lazy">
+          </div>
+          <div class="service-cat-content">
+            <span class="service-cat-tag reveal" data-reveal>02 - Diseño</span>
+            <h3>Identidad visual con intención</h3>
+            <p class="service-cat-desc">Diseño aplicado a piezas que comunican con claridad y convierten ideas en presencia de marca.</p>
+            <ul class="service-list">
+              <li>Diseño gráfico para campañas, promociones y comunicación comercial.</li>
+              <li>Adaptación de identidad visual a formatos impresos y digitales.</li>
+              <li>Composición visual moderna, colorida y alineada al tono de marca.</li>
+              <li>Personalización creativa para necesidades específicas de cada cliente.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-category reveal" data-reveal>
+          <div class="service-cat-media">
+            <img src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=1200&q=80" alt="Proceso creativo con color, bocetos y materiales de publicidad" loading="lazy">
+          </div>
+          <div class="service-cat-content">
+            <span class="service-cat-tag reveal" data-reveal>03 - Rotulación y promocionales</span>
+            <h3>Marca visible en todos los puntos de contacto</h3>
+            <p class="service-cat-desc">Soluciones para llevar tu identidad a espacios, soportes y productos que conectan con tus clientes.</p>
+            <ul class="service-list">
+              <li>Rotulación para reforzar presencia comercial y reconocimiento visual.</li>
+              <li>Artículos promocionales personalizados con enfoque de marca.</li>
+              <li>Aplicaciones visuales para negocios, lanzamientos y activaciones.</li>
+              <li>Asesoría creativa para elegir el formato adecuado según tu objetivo.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="services-cta reveal" data-reveal>
+          <p>Cuéntanos qué quieres comunicar y convertimos la idea en una pieza visual lista para destacar.</p>
+          <a href="#contacto" class="btn btn-primary">Cotizar mi proyecto</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="parallax-banner" style="background-image:url('assets/img/arte-infinito-scene.jpg');">
+      <div class="parallax-overlay"></div>
+      <div class="container parallax-content">
+        <p class="eyebrow reveal" data-reveal>Nuestra filosofía</p>
+        <h2 class="reveal" data-reveal>Ideas creativas. Resultados infinitos.</h2>
+      </div>
+    </section>
+
+    <section class="why-us">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal" data-reveal>Por qué Arte Infinito</p>
+          <h2 class="section-title reveal" data-reveal>Un enfoque moderno, colorido y <span class="text-gold">orientado a resultados.</span></h2>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card reveal" data-reveal>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1 15 8l7.5 1-5.5 5.2L18.5 22 12 18l-6.5 4 1.5-7.8L1.5 9 9 8Z"/></svg>
+            </div>
+            <h3>Creatividad aplicada</h3>
+            <p>No diseñamos piezas aisladas: creamos soluciones visuales que ayudan a que tu marca se entienda y se recuerde.</p>
+          </div>
+          <div class="feature-card reveal" data-reveal>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2 3 6v6c0 5.1 3.6 9.3 9 10 5.4-.7 9-4.9 9-10V6l-9-4Zm-1 14-4-4 1.4-1.4L11 13.2l5.6-5.6L18 9l-7 7Z"/></svg>
+            </div>
+            <h3>Calidad visual</h3>
+            <p>Cuidamos color, legibilidad, proporción y acabado para que cada entrega represente a tu negocio con profesionalismo.</p>
+          </div>
+          <div class="feature-card reveal" data-reveal>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 5h16v3H4V5Zm0 5h10v3H4v-3Zm0 5h16v3H4v-3Z"/></svg>
+            </div>
+            <h3>Personalización real</h3>
+            <p>Cada proyecto se adapta a tus necesidades, objetivos y contexto comercial, sin caer en soluciones genéricas.</p>
+          </div>
+          <div class="feature-card reveal" data-reveal>
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 12a9 9 0 0 1 15.4-6.4L21 3v7h-7l2.9-2.9A7 7 0 1 0 19 12h2A9 9 0 1 1 3 12Z"/></svg>
+            </div>
+            <h3>Solución integral</h3>
+            <p>Diseño, impresión, rotulación y promocionales conectados bajo una misma dirección creativa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="parallax-banner parallax-banner--logo">
+      <div class="parallax-overlay"></div>
+      <div class="container parallax-content">
+        <img src="assets/img/logo-gold.png" alt="Logotipo dorado de Arte Infinito sin fondo" class="parallax-logo reveal" data-reveal>
+        <p class="eyebrow reveal" data-reveal>Identidad visual vibrante</p>
+        <h2 class="reveal" data-reveal>Tu marca, en cada formato que importa.</h2>
+      </div>
+    </section>
+
+    <section class="gallery" id="galeria">
+      <div class="container">
+        <div class="gallery-grid">
+          <div class="gallery-item reveal" data-reveal>
+            <img src="assets/img/arte-infinito-hero.jpg" alt="Mockup de impresión y promocionales de Arte Infinito" loading="lazy">
+          </div>
+          <div class="gallery-item reveal" data-reveal>
+            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=900&q=80" alt="Diseño gráfico profesional aplicado a identidad de marca" loading="lazy">
+          </div>
+          <div class="gallery-item reveal" data-reveal>
+            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80" alt="Estudio creativo para desarrollo de proyectos publicitarios" loading="lazy">
+          </div>
+          <div class="gallery-item reveal" data-reveal>
+            <img src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=900&q=80" alt="Materiales de color para diseño y publicidad creativa" loading="lazy">
+          </div>
+          <div class="gallery-item reveal" data-reveal>
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Trabajo digital para diseño de comunicación visual" loading="lazy">
+          </div>
+          <div class="gallery-item gallery-item--logo reveal" data-reveal>
+            <img src="assets/img/logo-gold.png" alt="Logotipo transparente de Arte Infinito en dorado" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow reveal" data-reveal>Contacto</p>
+          <h2 class="section-title reveal" data-reveal>Listos para convertir tu idea en <span class="text-gold">publicidad que impacta.</span></h2>
+          <p class="section-desc reveal" data-reveal>Comparte el objetivo de tu proyecto, el tipo de pieza que necesitas y el alcance esperado. Arte Infinito puede orientarte con una solución creativa personalizada.</p>
+
+          <ul class="contact-list reveal" data-reveal>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H8l-4 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/></svg>
+              <span>Cotizaciones para impresión, diseño, rotulación y artículos promocionales.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2 3 7l9 5 9-5-9-5Zm-7 8v7l7 4 7-4v-7l-7 4-7-4Z"/></svg>
+              <span>Soluciones personalizadas para necesidades específicas de cada marca.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13 2 3 14h8l-1 8 11-13h-8l1-7Z"/></svg>
+              <span>Producción visual moderna, colorida y enfocada en resultados impactantes.</span>
+            </li>
+          </ul>
+
+          <div class="social-links reveal" data-reveal>
+            <a href="#servicios" aria-label="Ver servicios">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h7v7H4V4Zm9 0h7v7h-7V4ZM4 13h7v7H4v-7Zm9 0h7v7h-7v-7Z"/></svg>
+            </a>
+            <a href="#galeria" aria-label="Ver portafolio">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14H3V5Zm3 10h12l-3.5-4.5-2.7 3.4-1.9-2.4L6 15Z"/></svg>
+            </a>
+            <a href="#inicio" aria-label="Volver al inicio">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3 2 12h3v8h6v-5h2v5h6v-8h3L12 3Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-map reveal" data-reveal>
+          <div class="quote-panel">
+            <img src="assets/img/logo-gold.png" alt="Arte Infinito, arte y diseño creativo sin fondo" loading="lazy">
+            <h3>Para cotizar mejor</h3>
+            <p>Ten a la mano medidas, cantidad, tipo de aplicación, fecha estimada y referencias visuales. Con eso podemos aterrizar una solución más precisa para tu marca.</p>
+            <a href="#servicios" class="btn btn-outline">Revisar soluciones</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#inicio" class="brand">
+          <img src="assets/img/logo-gold.png" alt="Arte Infinito" class="brand-logo">
+          <span class="brand-text">
+            <span class="brand-name">Arte Infinito</span>
+            <span class="brand-tagline">Publicidad &amp; Diseño Creativo</span>
+          </span>
+        </a>
+        <p>Soluciones creativas en impresión, diseño, rotulación y artículos promocionales para marcas que quieren destacar.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Portafolio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Servicios</h4>
+        <ul>
+          <li>Impresión</li>
+          <li>Diseño</li>
+          <li>Rotulación</li>
+          <li>Artículos promocionales</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Marca</h4>
+        <p>Ideas creativas, resultados infinitos.</p>
+        <div class="social-links">
+          <a href="#servicios" aria-label="Servicios de Arte Infinito">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h7v7H4V4Zm9 0h7v7h-7V4ZM4 13h7v7H4v-7Zm9 0h7v7h-7v-7Z"/></svg>
+          </a>
+          <a href="#galeria" aria-label="Portafolio de Arte Infinito">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14H3V5Zm3 10h12l-3.5-4.5-2.7 3.4-1.9-2.4L6 15Z"/></svg>
+          </a>
+          <a href="#contacto" aria-label="Contacto de Arte Infinito">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H8l-4 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Arte Infinito. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.8a8.1 8.1 0 0 1 5.75 2.38 8.07 8.07 0 0 1 2.38 5.73c0 4.48-3.65 8.12-8.14 8.12a8.1 8.1 0 0 1-4.13-1.13l-.3-.17-3.12.82.83-3.04-.19-.31a8.06 8.06 0 0 1-1.24-4.31c0-4.48 3.65-8.09 8.16-8.09m-4.48 4.19c-.15 0-.4.06-.6.28-.21.23-.8.77-.8 1.89s.82 2.2.93 2.35c.11.15 1.6 2.5 3.95 3.44 1.94.79 2.35.63 2.77.6.42-.04 1.36-.55 1.55-1.09.19-.53.19-.99.13-1.09-.06-.09-.21-.15-.44-.26-.23-.12-1.36-.67-1.57-.75-.21-.08-.36-.12-.52.11-.15.23-.6.75-.73.9-.13.15-.27.17-.5.06-.23-.12-.96-.35-1.83-1.13-.68-.6-1.13-1.35-1.27-1.58-.13-.23-.01-.35.1-.47.11-.11.23-.27.35-.4.11-.14.15-.24.23-.4.08-.15.04-.3-.02-.42-.06-.11-.52-1.28-.72-1.74-.19-.46-.38-.4-.52-.4Z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
