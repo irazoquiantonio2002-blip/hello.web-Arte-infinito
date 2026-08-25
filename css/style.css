@@ -856,7 +856,7 @@ section {
   padding: 34px;
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.82)),
-    url("../assets/img/arte-infinito-scene.jpg") center / cover no-repeat;
+    url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80") center / cover no-repeat;
 }
 
 .quote-panel img {
