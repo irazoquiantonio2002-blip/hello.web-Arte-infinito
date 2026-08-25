@@ -674,6 +674,7 @@ section {
   display: grid;
   gap: 11px;
   list-style: none;
+  margin-top: 18px;
 }
 
 .service-list li {
