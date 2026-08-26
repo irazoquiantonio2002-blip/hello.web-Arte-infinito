@@ -292,7 +292,7 @@ ul {
   position: relative;
   min-height: 100vh;
   display: grid;
-  align-items: center;
+  align-items: start;
   overflow: hidden;
   isolation: isolate;
   background: var(--ink);
