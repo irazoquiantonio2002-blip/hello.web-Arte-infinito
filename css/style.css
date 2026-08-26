@@ -304,8 +304,8 @@ ul {
   inset: 0;
   z-index: -3;
   background:
-    linear-gradient(90deg, rgba(0, 0, 0, 0.92) 0%, rgba(0, 0, 0, 0.72) 40%, rgba(0, 0, 0, 0.18) 100%),
-    url("../assets/img/arte-infinito-scene.jpg") center right / cover no-repeat;
+    linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.76) 30%, rgba(0, 0, 0, 0.46) 52%, rgba(0, 0, 0, 0.1) 72%, rgba(0, 0, 0, 0) 84%),
+    #050507 url("../assets/img/imagen hero.jpg") center right / contain no-repeat;
   transform: scale(1.02);
 }
 
@@ -338,11 +338,11 @@ ul {
 .hero-inner {
   position: relative;
   z-index: 2;
-  padding: 148px 0 96px;
+  padding: 116px 0 72px;
 }
 
 .eyebrow {
-  margin: 0 0 20px;
+  margin: 0 0 16px;
   color: var(--pink);
   font-size: 0.82rem;
   font-weight: 900;
@@ -355,6 +355,7 @@ ul {
   margin: 0;
   font: 900 clamp(3.3rem, 8vw, 7.4rem)/0.9 "Manrope", sans-serif;
   letter-spacing: 0;
+  text-shadow: 0 6px 30px rgba(0, 0, 0, 0.55);
 }
 
 .gradient-text {
@@ -369,26 +370,9 @@ ul {
   color: transparent;
 }
 
-.hero-typewriter {
-  min-height: 36px;
-  margin: 28px 0 0;
-  color: var(--text);
-  font-size: clamp(1.1rem, 2vw, 1.45rem);
-  font-weight: 800;
-}
-
-.typewriter-word {
-  color: var(--gold);
-}
-
-.typewriter-cursor {
-  color: var(--pink);
-  animation: blink 0.85s steps(2, start) infinite;
-}
-
 .hero-desc {
   max-width: 640px;
-  margin: 26px 0 0;
+  margin: 24px 0 0;
   color: rgba(255, 248, 234, 0.82);
   font-size: 1.08rem;
 }
@@ -397,21 +381,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  margin-top: 36px;
-}
-
-.hero-social {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-top: 34px;
-}
-
-.hero-social-label {
-  color: var(--muted);
-  font-size: 0.82rem;
-  font-weight: 800;
-  text-transform: uppercase;
+  margin-top: 32px;
 }
 
 .social-links {
@@ -1043,12 +1013,12 @@ html.js .reveal.is-visible {
 
   .hero::before {
     background:
-      linear-gradient(180deg, rgba(0, 0, 0, 0.84) 0%, rgba(0, 0, 0, 0.72) 55%, rgba(0, 0, 0, 0.92) 100%),
-      url("../assets/img/arte-infinito-scene.jpg") center / cover no-repeat;
+      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.1) 55%, rgba(0, 0, 0, 0.5) 100%),
+      #050507 url("../assets/img/imagen hero.jpg") top center / contain no-repeat;
   }
 
   .hero-inner {
-    padding: 126px 0 84px;
+    padding: calc(100vw * 0.562 + 30px) 0 84px;
   }
 
   .hero-title {
@@ -1109,11 +1079,6 @@ html.js .reveal.is-visible {
 
   .hero-cta {
     display: grid;
-  }
-
-  .hero-social {
-    align-items: flex-start;
-    flex-direction: column;
   }
 
   .section-head {
